@@ -994,6 +994,7 @@ button {
 .form-link {
   color: var(--accent-color);
   text-decoration-line: underline;
+  margin-left: 5px;
 }
 
 .form-checkbox {
