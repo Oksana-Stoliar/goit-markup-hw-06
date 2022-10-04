@@ -409,16 +409,24 @@
           <!--e-mail input-->
           <div class="email">
             <p class="email-input-title">Підпишіться на розсилку</p>
-            <div class="email-line">
-              <input type="email" class="email-input" name="mail" id="mail" />
-              <label for="mail" class="email-label">E-mail</label>
-              <button class="email-button" type="submit">
-                Підписатися
-                <svg class="icon-send">
-                  <use href="./images/icons.svg#send"></use>
-                </svg>
-              </button>
-            </div>
+            <form action="">
+              <div class="email-line">
+                <input
+                  type="email"
+                  class="email-input"
+                  name="mail"
+                  id="mail"
+                  placeholder="E-mail"
+                />
+                <label for="mail" class="email-label"></label>
+                <button class="email-button" type="submit">
+                  Підписатися
+                  <svg class="icon-send">
+                    <use href="./images/icons.svg#send"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -436,6 +444,7 @@
         <!--Форма-->
         <form class="form" name="forma">
           <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <!--<b class="form-title">Залиште свої дані, ми вам передзвонимо</b>-->
           <div class="form-field">
             <label for="name" class="form-label">Ім'я</label>
             <div class="input-overlay">
@@ -457,13 +466,13 @@
           <div class="form-field">
             <label for="mail" class="form-label">Пошта</label>
             <div class="input-overlay">
-              <input type="email" name="email" id="email" class="form-input" />
+              <input type="email" name="mail" id="mail" class="form-input" />
               <svg class="form-svg">
                 <use href="./images/icons.svg#email"></use>
               </svg>
             </div>
           </div>
-          <div class="form-field form-field-label">
+          <div class="form-field margin">
             <label for="comment" class="form-label">Коментар</label>
             <textarea
               class="form-input"
@@ -482,7 +491,7 @@
                 </svg>
               </div>
               Погоджуюся з розсилкою та приймаю
-              <a href="#" class="form-link">Умови договору</a>
+              <a href="#" class="form-link"> Умови договору</a>
             </label>
           </div>
           <button class="form-btn" type="submit">Відправити</button>
