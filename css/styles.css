@@ -1028,7 +1028,7 @@ button {
   color: var(--secondary-text-color);
 }
 
-.checkbox {
+.check-box {
   display: flex;
   width: 16px;
   height: 15px;
